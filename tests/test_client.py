@@ -79,7 +79,7 @@ class TestPropheseerClient:
             assert client.api_key == "pk_test_123"
 
     def test_version_is_set(self) -> None:
-        assert VERSION == "0.1.0"
+        assert VERSION == "1.0.0"
 
 
 class TestAsyncPropheseerClient:
